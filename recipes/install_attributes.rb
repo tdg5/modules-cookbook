@@ -19,7 +19,7 @@
 
 # TODO: do init script.
 
-template '/etc/modules-load.d/chef-attibutes.conf' do
+template '/etc/modules-load.d/chef-attributes.conf' do
   source 'modules.conf.erb'
   mode '0644'
   owner 'root'
